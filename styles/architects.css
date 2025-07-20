@@ -247,7 +247,8 @@ footer p {
     .nav-links,
     .features,
     .teams,
-    .features {
+    .features,
+    .feature-image {
         flex-direction: column;
     }
 
@@ -263,6 +264,24 @@ footer p {
 
     .our-features {
         margin-left: 20px;
+    }
+
+    .feature-image {
+        width: 100%;
+        /* max-width: 570px; */
+        margin: 0 auto;
+        display: flex;
+
+    }
+
+    .feature-image img {
+        
+        max-width: 570px;
+        margin: 0 auto;
+    }
+
+    #experience-bnt {
+        margin: 0;
     }
 
     #experience-bnt {
